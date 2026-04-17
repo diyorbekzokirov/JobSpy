@@ -130,6 +130,7 @@ class Country(Enum):
     THAILAND = ("thailand", "th")
     TURKEY = ("türkiye,turkey", "tr")
     UKRAINE = ("ukraine", "ua")
+    UZBEKISTAN = ("uzbekistan", "uz")
     UNITEDARABEMIRATES = ("united arab emirates", "ae")
     UK = ("uk,united kingdom", "uk:gb", "co.uk")
     USA = ("usa,us,united states", "www:us", "com")
