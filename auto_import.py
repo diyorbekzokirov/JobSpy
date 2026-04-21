@@ -78,6 +78,7 @@ def scrape_linkedin_jobs() -> list[dict]:
                 location="Tashkent, Uzbekistan",
                 results_wanted=100,
                 hours_old=168,
+                linkedin_fetch_description=True,
             )
             if jobs is not None and len(jobs) > 0:
                 all_frames.append(jobs)
